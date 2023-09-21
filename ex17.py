@@ -6,3 +6,4 @@ script, froom_file, to_file = argv
 print(f"copying from {from_file} tp {to_file}")
 
 #we could do these two on lone line, how?
+in_file = open(from_file)
