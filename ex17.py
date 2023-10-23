@@ -1,7 +1,10 @@
+#takes input and stores to use as var
 from sys import argv
+#uses OS to create new path
 from os.path import exists
 
-script, froom_file, to_file = argv
+
+script, from_file, to_file = argv
 
 print(f"copying from {from_file} tp {to_file}")
 
