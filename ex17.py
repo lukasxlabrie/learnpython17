@@ -6,6 +6,7 @@ from os.path import exists
 #takes input and enters it into from_file and copies into to_file
 script, from_file, to_file = argv
 
+#prints the action occuring 
 print(f"copying from {from_file} tp {to_file}")
 
 #we could do these two on lone line, how?
